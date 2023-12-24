@@ -1,12 +1,12 @@
 {
-  "name": "@modyfi/vite-plugin-yaml",
-  "version": "1.0.4",
+  "name": "@equestly/vite-plugin-yaml",
+  "version": "1.0.5",
   "description": "Import YAML files as JS objects 🔌",
   "type": "module",
   "author": {
-    "name": "Tony Ketcham",
-    "email": "tony@modyfi.io",
-    "url": "https://github.com/tonyketcham"
+    "name": "Ethan LaBelle",
+    "email": "ethanlabelle@equestly.com",
+    "url": "https://github.com/cypherpower"
   },
   "license": "MIT",
   "scripts": {
@@ -37,18 +37,18 @@
     "vite-plugin",
     "yaml",
     "yml",
-    "modyfi"
+    "Equestly"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Modyfi/vite-plugin-yaml"
+    "url": "https://github.com/Equestly/vite-plugin-yaml"
   },
   "bugs": {
-    "url": "https://github.com/Modyfi/vite-plugin-yaml/issues"
+    "url": "https://github.com/Equestly/vite-plugin-yaml/issues"
   },
-  "homepage": "https://github.com/Modyfi/vite-plugin-yaml/tree/main/#readme",
+  "homepage": "https://github.com/Equestly/vite-plugin-yaml/tree/main/#readme",
   "peerDependencies": {
-    "vite": "^2.6.0 || ^3.0.0 || ^4.0.0"
+    "vite": "^2.6.0 || ^3.0.0 || ^4.0.0 || ^5.0.0"
   },
   "dependencies": {
     "@rollup/pluginutils": "5.0.2",
@@ -60,6 +60,6 @@
     "c8": "7.12.0",
     "tsup": "6.5.0",
     "typescript": "4.9.4",
-    "vite": "4.0.3"
+    "vite": "^5.0.10"
   }
 }
